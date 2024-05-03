@@ -1,0 +1,15 @@
+[package]
+name = "syntax-spotify-transformer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.82"
+chrono = "0.4.38"
+gray_matter = "0.2.6"
+regex = "1.10.4"
+rspotify = { version = "0.13.1", features = ["cli"] }
+serde = { version = "1.0.198", features = ["derive"] }
+tokio = { version = "1.37.0", features = ["full"] }
